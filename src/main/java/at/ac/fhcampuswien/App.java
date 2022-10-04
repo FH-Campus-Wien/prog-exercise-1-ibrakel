@@ -134,7 +134,7 @@ public class App {
         Scanner scan = new Scanner(System.in);
         System.out.print("Year: ");
         int year = scan.nextInt();
-        int leap = year%4 + year%100 - year%400;
+        int leap = year%4 + year%100 - year%400; //
         switch (leap) {
             case 0:
                 System.out.println("Leapyear");
